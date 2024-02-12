@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-img {
+    background-image: url('https://image.tmdb.org/t/p/original/meyhnvssZOPPjud4F1CjOb4snET.jpg');
+    height: 70vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.bg-container {
+    background-color: black;
+    height: 210vh;
+    background-size: cover;
+}
+
+.netflix-logo {
+    height: 50px;
+    width: 110px;
+    margin: 5px;
+    margin-left: 30px;
+}
+
+.menu-text {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.account-logo {
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-f {
+    width: 60%;
+}
+
+.navbar-l {
+    width: 40%;
+}
+
+.magnifier,
+.bell,
+.account-logo {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+.main-head {
+    color: white;
+    font-size: 45px;
+    width: 40%;
+}
+
+.main-para {
+    color: white;
+    font-size: 20px;
+    width: 40%;
+
+}
+
+.main-card {
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.infobutton {
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+}
+
+
+.playbutton {
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+}
+
+.heading-text {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.images {
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+
+.container .item:focus,
+.container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+body {
+    overflow: hidden;
+}
+
+.item img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+
+.container .item:focus,
+.container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+body {
+    overflow: hidden;
+}
+
+.item img {
+    display: block;
+    max-width: 100%;
+}
+
+.contentstream {
+    margin-top: 120px;
+}
